@@ -20,9 +20,9 @@
         <div class="container">
         <div id="cf" class="wrapper">
             <center>
-                <img class="bottom transition-image" src="images/S__31055903.jpg" alt="images">
-                <img class="top transition-image" src="images/S__31055902.jpg" alt="images">
-                <img class="bottom transition-image" src="images/S__31055899.jpg" alt="images">
+                <img class="bottom transition-image" src="images/images_80.jpg" alt="images">
+                <img class="top transition-image" src="images/images_79.jpg" alt="images">
+                <img class="bottom transition-image" src="images/images_75.jpg" alt="images">
             </center>
         </div>
         </div>
