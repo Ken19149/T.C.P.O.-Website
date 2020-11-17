@@ -1,0 +1,127 @@
+html {
+    background-color: rgba(75, 231, 145, 0.788);
+}
+
+/* crossfade picture */
+#cf img {
+    animation-name: cf3FadeInOut;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite; 
+    animation-duration: 6s;
+    animation-direction: alternate;
+    position: absolute;
+    max-width: 80%;
+    border-radius: 10px;
+}
+
+#cf img:nth-of-type(1) {
+    animation-delay: 5s;
+}
+
+#cf img:nth-of-type(2) {
+    animation-delay: 3s;
+}
+
+#cf img:nth-of-type(3) {
+    /* add some delay for the first picture */
+    animation-delay: 1s;
+}
+
+@keyframes cf3FadeInOut {
+    /* distributing times evenly */
+    0% {
+        opacity: 1;
+    }
+    25% {
+        opacity: 0;
+    }
+    75% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+#nav{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background-color: rgba(0, 0, 0, 0.15);
+}
+
+#nav a:link, a:visited {
+    background-color: white;
+    color: black;
+    border: 5px solid green;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+  
+#nav  a:hover, a:active {
+    background-color: rgb(0, 200, 0);
+    color: white;
+}
+#nav h1 {
+    font-size: 40px;
+}
+
+.wrapper img { left: 50% !important; transform: translate(-50%,0); position: absolute; z-index: 1 }
+
+.container div{
+    height: 40vh;
+    background-color: rgba(0, 0, 0, 0.123);
+}
+
+.transition-image {
+    display: block;
+    height: 40%;
+    width: auto;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+#div {
+    height: 100%;
+    width: 100%;
+}
+
+#banner {
+    font-family: "Abril Fatface";
+}
+
+#banner a{
+    text-decoration: none;
+}
+
+#banner a:hover,a:active {
+    color: rgb(255, 255, 255);
+}
+
+#banner h1 {
+    font-size: 45px;
+}
+
+#co-th{
+    color: rgb(230, 255, 230);
+}
+
+#contact-map iframe{
+    width: auto;
+    min-width: 40%;
+    max-height: 60%;
+}
+
+#contact-details {
+    background-color: rgb(0, 0, 0, 0.1);
+}
+
+#contact-details p{
+    font-size: 32px;
+}
